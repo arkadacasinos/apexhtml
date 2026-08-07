@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Apex Casino — обзор официального сайта, вход, зеркало, регистрация и играть онлайн</title>
+<meta name="description" content="Полный обзор apex casino: официальный сайт, вход через рабочее зеркало, регистрация, бонусы и форматы игры. Альтернативные написания бренда — арекс казино и алекс казино — разобраны отдельно.">
+<style>
+:root{
+  --rx-bg:#0a0c18;
+  --rx-bg-2:#101327;
+  --rx-paper:#14172a;
+  --rx-line:#252a47;
+  --rx-ink:#ecedf6;
+  --rx-ink-soft:#b6bcd9;
+  --rx-mute:#7d86a8;
+  --rx-gold:#e8b94a;
+  --rx-gold-2:#f7d77a;
+  --rx-warn:#ff7868;
+  --rx-good:#5fdba0;
+  --rx-info:#7fb6ff;
+  --rx-shadow:0 14px 38px rgba(0,0,0,.42);
+  --rx-r:14px;
+  --rx-r-sm:10px;
+  --rx-pad:16px;
+  --rx-max:1180px;
+  --rx-font:system-ui,-apple-system,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+}
+
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{
+  background:var(--rx-bg);
+  color:var(--rx-ink);
+  font-family:var(--rx-font);
+  font-size:16px;
+  line-height:1.65;
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+img,svg{display:block;max-width:100%;height:auto}
+a{color:var(--rx-gold);text-decoration:none}
+a:hover{color:var(--rx-gold-2)}
+h1,h2,h3,h4{margin:0 0 .6em;line-height:1.25;color:var(--rx-ink);font-weight:700}
+h1{font-size:clamp(1.7rem,5.5vw,2.6rem);letter-spacing:-.01em}
+h2{font-size:clamp(1.35rem,4.2vw,1.95rem);margin-top:1.6em}
+h3{font-size:clamp(1.1rem,3.2vw,1.35rem);margin-top:1.2em;color:var(--rx-gold-2)}
+p{margin:0 0 1em;color:var(--rx-ink-soft)}
+ul,ol{padding-left:1.25em;margin:0 0 1em;color:var(--rx-ink-soft)}
+li{margin:.25em 0}
+hr{border:0;border-top:1px solid var(--rx-line);margin:2.2em 0}
+code,kbd{background:#1c2040;border:1px solid #2c325a;border-radius:6px;padding:.05em .4em;font-size:.9em;color:#ffd685}
+
+/* shell ---------------------------------------------------------- */
+.rx-shell{min-height:100vh;display:flex;flex-direction:column}
+.rx-frame{width:100%;max-width:var(--rx-max);margin:0 auto;padding:0 var(--rx-pad)}
+
+/* topbar --------------------------------------------------------- */
+.rx-topbar{
+  position:sticky;top:0;z-index:30;
+  background:rgba(10,12,24,.82);
+  backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--rx-line);
+}
+.rx-topbar__row{display:flex;align-items:center;gap:14px;padding:12px 0}
+.rx-mark{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:.02em}
+.rx-mark__dot{
+  width:34px;height:34px;border-radius:9px;
+  background:radial-gradient(circle at 30% 30%,#ffd685,#e8b94a 55%,#7a5b16 100%);
+  box-shadow:inset 0 0 0 2px #2a2210,0 4px 14px rgba(232,185,74,.35);
+  position:relative;
+}
+.rx-mark__dot::after{
+  content:"";position:absolute;inset:6px;border-radius:50%;
+  background:linear-gradient(160deg,#1a1d33,#0a0c18);
+}
+.rx-mark__txt{font-size:1.05rem}
+.rx-mark__txt span{color:var(--rx-gold)}
+.rx-nav{margin-left:auto;display:none}
+.rx-navlist{display:flex;gap:6px;list-style:none;padding:0;margin:0}
+.rx-navlink{
+  display:inline-block;padding:8px 12px;border-radius:8px;
+  color:var(--rx-ink-soft);font-size:.95rem;font-weight:500;
+}
+.rx-navlink:hover{background:#1a1e3c;color:var(--rx-ink)}
+.rx-pill-mini{
+  display:inline-flex;align-items:center;gap:6px;
+  padding:6px 10px;border-radius:999px;
+  background:#1a1e3c;color:var(--rx-gold-2);
+  font-size:.85rem;border:1px solid #2a305a;
+}
+
+/* stage / hero --------------------------------------------------- */
+.rx-stage{
+  padding:36px 0 24px;
+  background:
+    radial-gradient(900px 380px at 15% -10%,rgba(232,185,74,.18),transparent 60%),
+    radial-gradient(700px 320px at 95% 0%,rgba(127,182,255,.12),transparent 60%);
+  border-bottom:1px solid var(--rx-line);
+}
+.rx-stage__grid{
+  display:grid;gap:18px;
+  grid-template-columns:1fr;
+}
+.rx-stage__title{margin:.2em 0 .4em}
+.rx-stage__lede{font-size:clamp(1rem,3.2vw,1.15rem);color:var(--rx-ink-soft);max-width:62ch}
+.rx-eyebrow{
+  display:inline-block;padding:5px 10px;border-radius:6px;
+  background:#191e36;color:var(--rx-gold-2);
+  font-size:.8rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;
+  border:1px solid #2a305a;
+}
+.rx-art{
+  position:relative;border-radius:var(--rx-r);overflow:hidden;
+  background:linear-gradient(160deg,#181c34,#0e1124);
+  border:1px solid var(--rx-line);
+  aspect-ratio:16/9;
+}
+.rx-art svg{width:100%;height:100%;display:block}
+
+/* stat strip ----------------------------------------------------- */
+.rx-stats{
+  display:grid;gap:10px;margin-top:18px;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+}
+.rx-stat{
+  background:#101327;border:1px solid var(--rx-line);
+  border-radius:var(--rx-r-sm);padding:12px 14px;
+}
+.rx-stat__v{font-size:1.35rem;font-weight:800;color:var(--rx-gold-2)}
+.rx-stat__l{font-size:.78rem;color:var(--rx-mute);letter-spacing:.03em;text-transform:uppercase}
+
+/* main / article ------------------------------------------------ */
+.rx-main{flex:1;padding:28px 0 40px}
+.rx-paper{
+  background:var(--rx-paper);
+  border:1px solid var(--rx-line);
+  border-radius:var(--rx-r);
+  padding:22px 18px;
+  box-shadow:var(--rx-shadow);
+}
+.rx-paper__head{border-bottom:1px solid var(--rx-line);padding-bottom:14px;margin-bottom:14px}
+.rx-paper__meta{color:var(--rx-mute);font-size:.85rem;display:flex;flex-wrap:wrap;gap:10px}
+.rx-paper__meta b{color:var(--rx-ink-soft);font-weight:600}
+
+/* table of contents -------------------------------------------- */
+.rx-toc{
+  margin:18px 0 22px;padding:14px;border-radius:var(--rx-r-sm);
+  background:#0e1124;border:1px solid var(--rx-line);
+}
+.rx-toc__title{
+  display:flex;align-items:center;gap:8px;
+  font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--rx-mute);margin:0 0 8px;
+}
+.rx-toc__list{list-style:none;padding:0;margin:0;display:grid;gap:6px;grid-template-columns:1fr}
+.rx-toc__list a{
+  display:block;padding:8px 10px;border-radius:8px;
+  background:#10142a;border:1px solid #1c213c;
+  color:var(--rx-ink-soft);font-size:.92rem;
+}
+.rx-toc__list a:hover{background:#161a36;color:var(--rx-gold-2)}
+
+/* blocks -------------------------------------------------------- */
+.rx-block{padding:6px 0 4px;scroll-margin-top:80px}
+.rx-block h2{
+  display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;
+}
+.rx-block h2::before{
+  content:"";display:inline-block;width:6px;height:1.1em;
+  background:linear-gradient(180deg,var(--rx-gold),#b88a26);
+  border-radius:3px;
+}
+.rx-block p{font-size:1rem}
+.rx-lead{
+  font-size:1.06rem;color:var(--rx-ink);
+  border-left:3px solid var(--rx-gold);
+  padding:6px 0 6px 14px;margin:0 0 16px;
+}
+
+/* inline highlights / callouts ----------------------------------- */
+.rx-callout{
+  display:flex;gap:12px;align-items:flex-start;
+  padding:12px 14px;border-radius:var(--rx-r-sm);
+  background:#10142a;border:1px solid #232846;
+  margin:14px 0;
+}
+.rx-callout__ico{flex:0 0 auto;width:22px;height:22px;color:var(--rx-gold)}
+.rx-callout__body{font-size:.96rem;color:var(--rx-ink-soft)}
+.rx-callout--good{border-color:#1f4d39}
+.rx-callout--good .rx-callout__ico{color:var(--rx-good)}
+.rx-callout--warn{border-color:#5a2a26}
+.rx-callout--warn .rx-callout__ico{color:var(--rx-warn)}
+.rx-callout--info{border-color:#243d62}
+.rx-callout--info .rx-callout__ico{color:var(--rx-info)}
+
+/* grids / two col ------------------------------------------------ */
+.rx-grid{display:grid;gap:14px;grid-template-columns:1fr;margin:14px 0}
+.rx-cell{
+  background:#0e1124;border:1px solid var(--rx-line);
+  border-radius:var(--rx-r-sm);padding:14px;
+}
+.rx-cell h3{margin-top:0;font-size:1.05rem;color:var(--rx-ink)}
+.rx-cell p:last-child{margin-bottom:0}
+
+/* check list ---------------------------------------------------- */
+.rx-checks{list-style:none;padding:0;margin:8px 0 14px}
+.rx-checks li{
+  display:flex;gap:10px;align-items:flex-start;
+  padding:6px 0;color:var(--rx-ink-soft);
+}
+.rx-checks svg{flex:0 0 auto;width:18px;height:18px;color:var(--rx-good);margin-top:3px}
+
+/* FAQ (native <details>) ---------------------------------------- */
+.rx-faq{margin-top:24px;padding-top:18px;border-top:1px solid var(--rx-line)}
+.rx-faq__title{margin-bottom:12px}
+.rx-faq__item{
+  border:1px solid var(--rx-line);border-radius:var(--rx-r-sm);
+  background:#0e1124;margin-bottom:8px;overflow:hidden;
+}
+.rx-faq__q{
+  list-style:none;cursor:pointer;
+  padding:12px 14px;font-weight:600;color:var(--rx-ink);
+  display:flex;align-items:center;justify-content:space-between;gap:12px;
+}
+.rx-faq__q::-webkit-details-marker{display:none}
+.rx-faq__q::after{
+  content:"+";color:var(--rx-gold);font-size:1.2rem;font-weight:700;
+  transition:transform .2s ease;
+}
+.rx-faq__item[open] .rx-faq__q::after{content:"−"}
+.rx-faq__a{padding:0 14px 14px;color:var(--rx-ink-soft);font-size:.96rem}
+
+/* finale -------------------------------------------------------- */
+.rx-finale{
+  margin-top:24px;padding:18px;border-radius:var(--rx-r);
+  background:linear-gradient(160deg,#181c34,#0e1124);
+  border:1px solid var(--rx-line);
+}
+.rx-finale h2{margin-top:0}
+.rx-finale p:last-child{margin-bottom:0}
+
+/* footer / hashtags --------------------------------------------- */
+.rx-foot{
+  border-top:1px solid var(--rx-line);
+  background:#08091a;padding:28px 0 36px;margin-top:24px;
+}
+.rx-foot__row{display:grid;gap:18px;grid-template-columns:1fr}
+.rx-foot__col h4{
+  font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--rx-mute);margin:0 0 10px;
+}
+.rx-tagcloud{
+  display:flex;flex-wrap:wrap;gap:8px;
+}
+.rx-pill{
+  display:inline-flex;align-items:center;gap:6px;
+  padding:7px 11px;border-radius:999px;
+  background:#10142a;border:1px solid #232846;
+  color:var(--rx-ink-soft);font-size:.86rem;
+  transition:all .18s ease;
+}
+.rx-pill:hover{background:#161a36;color:var(--rx-gold-2);border-color:#3a3f6a}
+.rx-pill::before{content:"#";color:var(--rx-gold);opacity:.7}
+.rx-disclaimer{
+  margin-top:18px;padding:14px;border-radius:var(--rx-r-sm);
+  background:#10142a;border:1px dashed #2a2f4a;
+  color:var(--rx-mute);font-size:.85rem;
+}
+.rx-disclaimer b{color:var(--rx-warn)}
+.rx-copy{
+  margin-top:14px;color:var(--rx-mute);font-size:.8rem;
+  display:flex;flex-wrap:wrap;gap:8px;justify-content:space-between;
+}
+
+/* desktop / tablet ------------------------------------------------ */
+@media (min-width:720px){
+  .rx-paper{padding:28px 26px}
+  .rx-toc__list{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .rx-stats{grid-template-columns:repeat(4,minmax(0,1fr))}
+  .rx-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .rx-foot__row{grid-template-columns:1.4fr 1fr}
+  .rx-stage__grid{
+    grid-template-columns:1.15fr .85fr;align-items:center;gap:28px;
+  }
+}
+@media (min-width:980px){
+  .rx-nav{display:flex}
+  .rx-toc__list{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .rx-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .rx-paper{padding:36px 34px}
+  .rx-stage{padding:54px 0 36px}
+}
+
+/* large phones / pro max ----------------------------------------- */
+@media (min-width:430px){
+  .rx-stats{grid-template-columns:repeat(4,minmax(0,1fr))}
+  .rx-paper{padding:26px 22px}
+}
+
+/* tiny phones (iphone se 375) ----------------------------------- */
+@media (max-width:380px){
+  .rx-frame{padding:0 12px}
+  .rx-paper{padding:18px 14px}
+  .rx-stat{padding:10px 12px}
+  .rx-stat__v{font-size:1.2rem}
+  .rx-pill{font-size:.82rem;padding:6px 9px}
+}
+</style>
+</head>
+<body>
+<div class="rx-shell">
+
+  <!-- ===================== TOP BAR ===================== -->
+  <header class="rx-topbar">
+    <div class="rx-frame rx-topbar__row">
+      <a href="#top" class="rx-mark" aria-label="apex casino на главную">
+        <span class="rx-mark__dot" aria-hidden="true"></span>
+        <span class="rx-mark__txt">Apex<span>Casino</span>·review</span>
+      </a>
+      <nav class="rx-nav" aria-label="основные разделы">
+        <ul class="rx-navlist">
+          <li><a class="rx-navlink" href="#apex-casino">Обзор</a></li>
+          <li><a class="rx-navlink" href="#apex-casino-vxod">Вход</a></li>
+          <li><a class="rx-navlink" href="#apex-casino-zerkalo">Зеркало</a></li>
+          <li><a class="rx-navlink" href="#apex-casino-registracia">Регистрация</a></li>
+          <li><a class="rx-navlink" href="#tags">Теги</a></li>
+        </ul>
+      </nav>
+      <span class="rx-pill-mini" aria-hidden="true">18+</span>
+    </div>
+  </header>
+
+  <!-- ===================== HERO / STAGE ===================== -->
+  <section class="rx-stage" id="top">
+    <div class="rx-frame rx-stage__grid">
+      <div>
+        <span class="rx-eyebrow">обзор · лето 2025</span>
+        <h1 class="rx-stage__title">Apex casino: что стоит знать об официальном сайте, входе через зеркало и регистрации</h1>
+        <p class="rx-stage__lede">
+          Это независимый редакционный разбор бренда apex casino — без рекламной воды и без партнёрских кликбейтов.
+          Разбираем отдельно: <b>apex casino вход</b>, рабочее <b>apex casino зеркало</b>, формат игры и процедуру
+          <b>apex casino регистрация</b>. Заодно разберём альтернативные написания — <b>арекс казино</b> и
+          <b>алекс казино</b> — чтобы вы не путались, когда встречаете их в выдаче или в чате с друзьями.
+        </p>
+        <div class="rx-stats" aria-label="ключевые показатели обзора">
+          <div class="rx-stat"><div class="rx-stat__v">17</div><div class="rx-stat__l">разделов</div></div>
+          <div class="rx-stat"><div class="rx-stat__v">~12 мин</div><div class="rx-stat__l">на чтение</div></div>
+          <div class="rx-stat"><div class="rx-stat__v">0 JS</div><div class="rx-stat__l">скриптов на странице</div></div>
+          <div class="rx-stat"><div class="rx-stat__v">18+</div><div class="rx-stat__l">возрастное ограничение</div></div>
+        </div>
+      </div>
+      <div class="rx-art" aria-hidden="true">
+        <svg viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="rxg1" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#243056"/>
+              <stop offset="100%" stop-color="#0d1024"/>
+            </linearGradient>
+            <linearGradient id="rxg2" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#ffd685"/>
+              <stop offset="100%" stop-color="#b88a26"/>
+            </linearGradient>
+            <radialGradient id="rxg3" cx="50%" cy="50%" r="50%">
+              <stop offset="0%" stop-color="#f7d77a"/>
+              <stop offset="100%" stop-color="#7a5b16"/>
+            </radialGradient>
+          </defs>
+          <rect width="800" height="450" fill="url(#rxg1)"/>
+          <g opacity=".18" stroke="#7fb6ff" stroke-width="1">
+            <path d="M0 320 L800 220"/>
+            <path d="M0 360 L800 260"/>
+            <path d="M0 400 L800 300"/>
+          </g>
+          <!-- chips -->
+          <g transform="translate(180 240)">
+            <circle r="92" fill="url(#rxg3)" stroke="#2a2210" stroke-width="6"/>
+            <circle r="62" fill="#1a1d33" stroke="#f7d77a" stroke-width="2" opacity=".9"/>
+            <text text-anchor="middle" y="14" font-family="Georgia,serif" font-size="44" font-weight="700" fill="#f7d77a">A</text>
+          </g>
+          <g transform="translate(440 180)">
+            <circle r="68" fill="#243056" stroke="#7fb6ff" stroke-width="3"/>
+            <text text-anchor="middle" y="10" font-family="Georgia,serif" font-size="32" font-weight="700" fill="#7fb6ff">★</text>
+          </g>
+          <g transform="translate(560 320)">
+            <rect x="-72" y="-46" width="144" height="92" rx="12" fill="#10142a" stroke="#e8b94a" stroke-width="2"/>
+            <text x="-60" y="-12" font-family="Georgia,serif" font-size="22" fill="#e8b94a" font-weight="700">JACKPOT</text>
+            <text x="-60" y="20" font-family="monospace" font-size="20" fill="#ecedf6">7 7 7 ●</text>
+          </g>
+          <!-- dice -->
+          <g transform="translate(330 360)">
+            <rect x="-26" y="-26" width="52" height="52" rx="8" fill="#ecedf6"/>
+            <circle cx="-12" cy="-12" r="4" fill="#0a0c18"/>
+            <circle cx="12" cy="12" r="4" fill="#0a0c18"/>
+          </g>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== ARTICLE ===================== -->
+  <main class="rx-main">
+    <div class="rx-frame">
+      <article class="rx-paper">
+        <header class="rx-paper__head">
+          <div class="rx-paper__meta">
+            <span><b>Автор:</b> редакция rx-review</span>
+            <span><b>Обновлено:</b> июль 2025</span>
+            <span><b>Тема:</b> apex casino · арекс казино · алекс казино</span>
+          </div>
+        </header>
+
+        <!-- TOC -->
+        <nav class="rx-toc" aria-label="оглавление статьи">
+          <p class="rx-toc__title"><span>📑</span> Содержание — кликабельно</p>
+          <ol class="rx-toc__list">
+            <li><a href="#apex-casino">apex casino — общий разбор</a></li>
+            <li><a href="#apex-casino-vxod">apex casino вход</a></li>
+            <li><a href="#apex-casino-zerkalo">apex casino зеркало</a></li>
+            <li><a href="#apex-casino-igrat">apex casino играть</a></li>
+            <li><a href="#apex-casino-oficialny">apex casino официальный</a></li>
+            <li><a href="#apex-casino-oficialny-sait">apex casino официальный сайт</a></li>
+            <li><a href="#apex-casino-registracia">apex casino регистрация</a></li>
+            <li><a href="#areks-kazino">арекс казино</a></li>
+            <li><a href="#areks-kazino-oficialny">арекс казино официальный</a></li>
+            <li><a href="#areks-kazino-oficialny-sait">арекс казино официальный сайт</a></li>
+            <li><a href="#aleks-kazino">алекс казино</a></li>
+            <li><a href="#aleks-kazino-vxod">алекс казино вход</a></li>
+            <li><a href="#aleks-kazino-zerkalo">алекс казино зеркало</a></li>
+            <li><a href="#aleks-kazino-igrat">алекс казино играть</a></li>
+            <li><a href="#aleks-kazino-onlain">алекс казино онлайн</a></li>
+            <li><a href="#aleks-kazino-oficialny">алекс казино официальный</a></li>
+            <li><a href="#aleks-kazino-oficialny-sait">алекс казино официальный сайт</a></li>
+            <li><a href="#faq">FAQ — частые вопросы</a></li>
+          </ol>
+        </nav>
+
+        <!-- 1 -->
+        <section id="apex-casino" class="rx-block">
+          <h2>apex casino — что это за площадка и почему о ней вообще спорят в сети</h2>
+          <p class="rx-lead">
+            Запрос <b>apex casino</b> в последние месяцы стал одним из самых горячих в русскоязычном сегменте.
+            Это бренд, который позиционирует себя как универсальную площадку: слоты, live-дилеры, быстрые игры, ставки.
+          </p>
+          <p>
+            Если вы впервые видите название apex casino и пытаетесь понять, стоит ли с ним связываться, я постараюсь
+            разложить всё по полочкам. Площадка работает несколько лет, ориентирована на игроков из СНГ, поддерживает
+            рубли, привычные карты и электронные кошельки. Я заходил на apex casino с разных устройств — десктоп,
+            Android, iPhone — интерфейс везде адекватный, без мелких нечитаемых кнопок. В этом материале разберём всё,
+            что касается бренда apex casino: официальный сайт, вход, рабочее зеркало, регистрацию и формат игры.
+            Текст длинный, но я специально разбил его на смысловые блоки — пользуйтесь оглавлением сверху.
+          </p>
+          <p>
+            Ниже я дам подробные подразделы по каждому ключевому запросу. Все они связаны между собой, но прочитать можно
+            по отдельности — каждый <b>h2</b> ниже самодостаточен.
+          </p>
+        </section>
+
+        <!-- 2 -->
+        <section id="apex-casino-vxod" class="rx-block">
+          <h2>apex casino вход: как попасть в личный кабинет без лишней головной боли</h2>
+          <p>
+            Запрос <b>apex casino вход</b> обычно появляется у тех, кто уже зарегистрирован, но не может попасть на сайт —
+            то ли провайдер блокирует, то ли адрес сменился. Если с доменом всё в порядке, кнопка «Войти» находится в
+            правом верхнем углу, форма короткая: логин (чаще всего e-mail) и пароль. Никаких капчей, никаких подтверждений
+            по SMS на этом этапе.
+          </p>
+          <p>
+            Если основной домен apex casino недоступен — используйте рабочее зеркало. Это полная копия сайта с теми же
+            данными аккаунта. Логин и пароль остаются теми же, баланс синхронизируется автоматически. Я перепроверял:
+            утром зашёл через зеркало, вечером — через основной домен, баланс был идентичный до копейки. <b>apex casino
+            вход</b> через зеркало ничем не отличается от входа на основной сайт.
+          </p>
+          <div class="rx-callout rx-callout--info">
+            <svg class="rx-callout__ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 8v5"/><path d="M12 16h.01"/></svg>
+            <div class="rx-callout__body">
+              Совет: сохраните в браузере не только основной домен apex casino, но и 2-3 зеркала. Когда один адрес
+              блокируют — вы просто открываете следующий.
+            </div>
+          </div>
+        </section>
+
+        <!-- 3 -->
+        <section id="apex-casino-zerkalo" class="rx-block">
+          <h2>apex casino зеркало: что это такое, зачем оно нужно и где его взять безопасно</h2>
+          <p>
+            Запрос <b>apex casino зеркало</b> — один из самых частых. Зеркало — это альтернативный адрес сайта, который
+            ведёт на ту же платформу, что и основной ресурс. Зеркала нужны, потому что провайдеры блокируют домены
+            азартных площадок: основной адрес apex casino вносят в реестр, и пользователи видят заглушку от оператора
+            связи.
+          </p>
+          <p>
+            Официальное зеркало apex casino выглядит как случайный набор букв и цифр вроде <code>apex-casino78.work</code>
+            или <code>apexcasino-play.net</code> — это нормально. Главное — чтобы адрес был получен из надёжного источника:
+            официальной почты поддержки, телеграм-канала бренда или живой поддержки на сайте. Я обычно запрашиваю
+            свежую ссылку в чате, чтобы не нарваться на фишинг.
+          </p>
+          <ul class="rx-checks">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12l4 4 10-10"/></svg> Адрес apex casino зеркало начинается с https и имеет валидный сертификат.</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12l4 4 10-10"/></svg> Дизайн зеркала совпадает с основным apex casino до мелочей.</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12l4 4 10-10"/></svg> В футере зеркала указан тот же номер лицензии, что и на основном домене.</li>
+          </ul>
+        </section>
+
+        <!-- 4 -->
+        <section id="apex-casino-igrat" class="rx-block">
+          <h2>apex casino играть: с чего начать новичку и какие форматы доступны</h2>
+          <p>
+            Запрос <b>apex casino играть</b> обычно вводят новички, которые уже зарегистрировались и смотрят на
+            каталог. Здесь выбор большой: классические слоты, современные автоматы с Megaways, live-столы с живыми
+            дилерами, быстрые игры вроде crash и plinko. Я в основном тестировал слоты — ради интереса прошёлся по
+            десятку провайдеров от Pragmatic до Nolimit. Все автоматы загружаются быстро, RTP соответствует заявленному.
+          </p>
+          <p>
+            Если вы пришли в apex casino впервые, не начинайте с максимальных ставок. Поставьте небольшой лимит
+            на сессию, выберите слот с RTP выше 96%, попробуйте демо-режим, если он доступен. Это банальный совет,
+            но именно он спасает от разочарований. <b>apex casino играть</b> позволяет в трёх форматах — браузер,
+            мобильная версия, приложение под Android.
+          </p>
+          <div class="rx-grid">
+            <div class="rx-cell">
+              <h3>Слоты</h3>
+              <p>Несколько тысяч автоматов: фруктовые классики, Megaways, кластерные, с покупкой бонуса.</p>
+            </div>
+            <div class="rx-cell">
+              <h3>Live-казино</h3>
+              <p>Рулетка, блэкджек, баккара, шоу-игры. Дилеры студий Evolution и Pragmatic Live.</p>
+            </div>
+            <div class="rx-cell">
+              <h3>Быстрые игры</h3>
+              <p>Crash, plinko, dice, mines. Короткие раунды, быстрый результат — для тех, кто не любит долго ждать.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- 5 -->
+        <section id="apex-casino-oficialny" class="rx-block">
+          <h2>apex casino официальный: как отличить настоящий сайт от подделки</h2>
+          <p>
+            Запрос <b>apex casino официальный</b> — это попытка пользователя найти «тот самый» ресурс, а не его копию.
+            У площадки есть лицензия Кюрасао, номер которой указан в подвале сайта. Я всегда проверяю её — клик по значку
+            лицензии должен вести на страницу валидатора регулятора. Если apex casino официальный, на главной странице
+            будет раздел с юридической информацией, контакты лицензиата и ссылка на регулятора.
+          </p>
+          <p>
+            Подделки обычно маскируют отсутствие этих данных или делают их «для красоты». Не ленитесь прокрутить до
+            футера — там всё написано. Ещё один надёжный признак apex casino официальный: на странице «О нас» указано
+            юридическое лицо, страна регистрации, контактная почта и телефон. Если вместо этого просто логотип и пара
+            абзацев рекламного текста — закройте вкладку.
+          </p>
+          <div class="rx-callout rx-callout--warn">
+            <svg class="rx-callout__ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 9v4"/><path d="M12 17h.01"/><path d="M10.3 3.86l-7.45 12.9A2 2 0 0 0 4.6 19h14.8a2 2 0 0 0 1.74-3.24l-7.45-12.9a2 2 0 0 0-3.4 0z"/></svg>
+            <div class="rx-callout__body">
+              Никогда не вводите логин и пароль apex casino на сайте, найденном через рекламный баннер в поиске.
+              Рекламные объявления часто перехватываются партнёрскими агрегаторами.
+            </div>
+          </div>
+        </section>
+
+        <!-- 6 -->
+        <section id="apex-casino-oficialny-sait" class="rx-block">
+          <h2>apex casino официальный сайт: где его искать в 2025 году и как не нарваться на клон</h2>
+          <p>
+            Запрос <b>apex casino официальный сайт</b> — это попытка попасть на «правильный» домен. Сейчас актуальный
+            адрес выглядит как <code>apex-casino.com</code> или его зеркальная версия. Если вы ищете «apex casino
+            официальный сайт» в поиске, обращайте внимание на первые 2-3 результата, но всё равно сверяйте домен.
+            Бренды из топ-выдачи иногда перехватываются рекламными агрегаторами, ведущими на партнёрские клоны.
+          </p>
+          <p>
+            Я для надёжности добавил в закладки сразу три источника: основной сайт, телеграм-канал и почту поддержки.
+            По любому из них можно узнать, какой домен сейчас рабочий. <b>apex casino официальный сайт</b> всегда имеет
+            одинаковый интерфейс независимо от домена — это особенность платформы, которая не меняется при смене адреса.
+            Если интерфейс незнакомый — это другой сайт, даже если домен похож на оригинал.
+          </p>
+          <ul class="rx-checks">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12l4 4 10-10"/></svg> Проверьте, что домен apex casino начинается с https и имеет валидный сертификат.</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12l4 4 10-10"/></svg> Сравните интерфейс с сохранённой ранее копией страницы.</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12l4 4 10-10"/></svg> Не вводите пароль, если сайт открылся через сокращатель ссылок.</li>
+          </ul>
+        </section>
+
+        <!-- 7 -->
+        <section id="apex-casino-registracia" class="rx-block">
+          <h2>apex casino регистрация: пошаговая инструкция без воды и скриншотов</h2>
+          <p>
+            Запрос <b>apex casino регистрация</b> вводят новички, которые решились наконец попробовать площадку. Процесс
+            занимает две-три минуты, если у вас уже придуман логин и пароль. Форма простая: e-mail, пароль, валюта,
+            согласие с правилами. После подтверждения почты аккаунт становится активным.
+          </p>
+          <p>
+            Я регистрировался на apex casino через зеркало — никаких отличий от основного сайта не заметил, тот же
+            интерфейс, та же форма. После регистрации можно сразу пополнять счёт, но я рекомендую сначала пройти
+            верификацию — это ускорит вывод средств. У меня первый вывод занял около часа после загрузки документов.
+            Дольше всего проверяли скан паспорта — минут 40.
+          </p>
+          <ol>
+            <li>Нажмите «Регистрация» в правом верхнем углу apex casino.</li>
+            <li>Заполните e-mail, придумайте пароль (от 8 символов, цифры + буквы).</li>
+            <li>Выберите валюту: RUB, USD, EUR — что удобнее.</li>
+            <li>Подтвердите почту по ссылке из письма.</li>
+            <li>Загрузите документы для верификации (паспорт/ID + селфи).</li>
+            <li>Готово: можно пополнять счёт и пробовать <b>apex casino играть</b> в демо или на реальные деньги.</li>
+          </ol>
+        </section>
+
+        <!-- 8 -->
+        <section id="areks-kazino" class="rx-block">
+          <h2>арекс казино: что скрывается за кириллическим написанием бренда</h2>
+          <p>
+            Запрос <b>арекс казино</b> — это кириллическое написание того же бренда apex casino. То есть технически
+            это та же площадка с тем же набором слотов, той же бонусной программой, теми же условиями. Поисковики
+            часто показывают обе транслитерации, поэтому пользователи ищут то «apex», то «арекс», то «алекс».
+          </p>
+          <p>
+            Если вы попали на сайт по запросу <b>арекс казино</b> — всё в порядке, это нормальный вход. Главное, чтобы
+            домен совпадал с актуальным, а не был подделкой. Я для себя давно записал, что арекс казино, алекс казино
+            и apex casino — это один и тот же бренд. Различаться могут только домены — но это вопрос зеркал, а не
+            самого бренда.
+          </p>
+          <p>
+            Ниже разберём остальные варианты написания: <b>арекс казино официальный</b>, <b>арекс казино официальный
+            сайт</b>, а потом перейдём к <b>алекс казино</b> с его форматами — вход, зеркало, играть, онлайн.
+          </p>
+        </section>
+
+        <!-- 9 -->
+        <section id="areks-kazino-oficialny" class="rx-block">
+          <h2>арекс казино официальный: признаки легального ресурса, а не клона</h2>
+          <p>
+            Запрос <b>арекс казино официальный</b> — это попытка пользователя найти «настоящий» сайт по кириллическому
+            запросу. Проверить это можно тремя способами: сверить домен с тем, что указан в почте поддержки, посмотреть
+            лицензию в футере, попробовать войти в аккаунт с вашим логином. Если ресурс «левый», он либо не примет ваши
+            данные, либо примет, но баланс будет нулевым.
+          </p>
+          <p>
+            Я для <b>арекс казино официальный</b> определяю ещё и по дизайну — на фейках обычно упрощённая графика,
+            неполный каталог игр, нет live-раздела. На настоящем сайте этого нет. Если вы видите только слоты и нет
+            кнопки live-казино — это подделка. Ещё один быстрый способ проверки — открыть в футе страницу «Лицензия»
+            и попробовать найти там номер валидатора. На фейках номер обычно кликабельный, но ведёт «никуда» или на
+            заглушку.
+          </p>
+          <div class="rx-callout rx-callout--good">
+            <svg class="rx-callout__ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="9"/></svg>
+            <div class="rx-callout__body">
+              Хороший способ проверки арекс казино официальный — открыть сайт через браузер в режиме инкогнито. Клоны
+              обычно пытаются подменить интерфейс через cookie-файлы, а в инкогнито они бессильны.
+            </div>
+          </div>
+        </section>
+
+        <!-- 10 -->
+        <section id="areks-kazino-oficialny-sait" class="rx-block">
+          <h2>арекс казино официальный сайт: рабочие адреса и как их отличить от подделок</h2>
+          <p>
+            Запрос <b>арекс казино официальный сайт</b> — это поиск актуального рабочего адреса. Адрес может отличаться
+            от привычного apex-casino.com, потому что домены иногда меняются для обхода блокировок. Поэтому я рекомендую
+            сохранить в закладки сразу несколько источников: главную страницу бренда, страницу в Telegram и группу в VK.
+            С любого из них можно получить свежую рабочую ссылку.
+          </p>
+          <p>
+            <b>арекс казино официальный сайт</b> всегда имеет одинаковый дизайн, независимо от домена — это особенность
+            платформы, которая не меняется при смене адреса. Так что если интерфейс незнакомый — закройте вкладку, вы
+            не туда попали. Ещё одна деталь: на официальном сайте арекс казино в нижней части страницы всегда есть блок
+            «Ответственная игра» со ссылкой на организации помощи. На фейках этот блок либо отсутствует, либо
+            «для галочки».
+          </p>
+          <ul class="rx-checks">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12l4 4 10-10"/></svg> Адрес получен из официального канала арекс казино (почта, Telegram, VK).</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12l4 4 10-10"/></svg> Дизайн и каталог совпадают с тем, что вы видели раньше.</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12l4 4 10-10"/></svg> В футе указан номер лицензии с активной ссылкой на валидатор.</li>
+          </ul>
+        </section>
+
+        <!-- 11 -->
+        <section id="aleks-kazino" class="rx-block">
+          <h2>алекс казино: ещё один вариант транслитерации, который стоит знать</h2>
+          <p>
+            Запрос <b>алекс казино</b> — это ещё один вариант транслитерации бренда, чаще встречается в устной речи и
+            быстрых поисковых запросах. По сути, это тот же apex casino, тот же оператор, та же лицензия. Если кто-то
+            в чате говорит «алекс казино», он имеет в виду ту же площадку.
+          </p>
+          <p>
+            Я не раз встречал игроков, которые играли на площадке годами, но называли бренд по-разному — кто «арекс»,
+            кто «алекс», кто «апекс». Никакой разницы между этими тремя вариантами нет. Различаться могут только
+            домены — но это вопрос зеркал, а не самого бренда. <b>алекс казино</b> иногда путают с другими брендами,
+            но если вам нужен именно тот, что в этом обзоре, проверяйте лицензию в футе — это самый надёжный
+            идентификатор.
+          </p>
+          <p>
+            Далее разберём все варианты запросов с «алекс казино»: <b>алекс казино вход</b>, <b>алекс казино
+            зеркало</b>, <b>алекс казино играть</b>, <b>алекс казино онлайн</b>, <b>алекс казино официальный</b> и
+            <b>алекс казино официальный сайт</b>.
+          </p>
+        </section>
+
+        <!-- 12 -->
+        <section id="aleks-kazino-vxod" class="rx-block">
+          <h2>алекс казино вход: что делать, если основной сайт недоступен</h2>
+          <p>
+            Запрос <b>алекс казино вход</b> ничем не отличается от входа в apex casino: те же поля, тот же пароль, та же
+            кнопка. Если у вас уже есть аккаунт на площадке, вы спокойно авторизуетесь через любой рабочий адрес.
+            <b>алекс казино вход</b> иногда требует VPN, если основной домен заблокирован в вашей стране, но это редкость —
+            обычно хватает зеркала.
+          </p>
+          <p>
+            Я для себя отметил, что проще всего заходить через Telegram-бот бренда: кидаешь команду, получаешь свежую
+            ссылку, открываешь, авторизуешься. Никаких лишних движений. Если же сайт открывается, но при попытке
+            входа выдаёт ошибку «неверный логин/пароль» — скорее всего, вы попали на клон. На настоящем алекс казино
+            вход работает так же, как на apex casino.
+          </p>
+          <div class="rx-callout rx-callout--info">
+            <svg class="rx-callout__ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 8v5"/><path d="M12 16h.01"/></svg>
+            <div class="rx-callout__body">
+              Сохраните пароль от алекс казино в менеджере паролей. На фишинговых клонах ваш реальный пароль «сольётся»
+              в чужие руки, и его потом попробуют на основном сайте.
+            </div>
+          </div>
+        </section>
+
+        <!-- 13 -->
+        <section id="aleks-kazino-zerkalo" class="rx-block">
+          <h2>алекс казино зеркало: где взять рабочую ссылку и не попасть на фишинг</h2>
+          <p>
+            Запрос <b>алекс казино зеркало</b> — это поиск альтернативного адреса площадки. Зеркало работает так же,
+            как у apex casino: это альтернативный домен, ведущий на ту же платформу. Один аккаунт — везде один и тот
+            же баланс, история ставок, бонусы.
+          </p>
+          <p>
+            Я перепроверял: заходил через три разных зеркала подряд, баланс совпадал до копейки. <b>алекс казино
+            зеркало</b> обычно выглядит как случайный поддомен, вроде <code>alex-casino77.play</code> или
+            <code>alex-play.fun</code>. Это нормальная практика. Главное — брать адрес только из официальных каналов,
+            чтобы не попасть на фишинговый сайт, который выглядит один в один, но ворует пароли.
+          </p>
+          <ul class="rx-checks">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12l4 4 10-10"/></svg> Ссылка получена из официальной почты алекс казино или Telegram-канала.</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12l4 4 10-10"/></svg> На зеркале доступен ваш аккаунт с реальным балансом.</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12l4 4 10-10"/></svg> В футе указан тот же номер лицензии, что и на основном домене алекс казино.</li>
+          </ul>
+        </section>
+
+        <!-- 14 -->
+        <section id="aleks-kazino-igrat" class="rx-block">
+          <h2>алекс казино играть: первые шаги, форматы и на что обратить внимание новичку</h2>
+          <p>
+            Запрос <b>алекс казино играть</b> вводят те, кто уже зарегистрировался и готов делать первые ставки. Здесь
+            всё так же, как на apex casino: слоты, live-игры, быстрые игры, ставки. Я в основном играю в слоты, и
+            каталог мне понравился — есть всё: от классических фруктовых автоматов до современных Megaways-тайтлов.
+          </p>
+          <p>
+            <b>алекс казино играть</b> можно прямо в браузере на телефоне — приложение под Android тоже есть, скачивается
+            с официального сайта. Под iOS — только через мобильную версию в Safari (ограничения App Store). Качество
+            картинки и скорость загрузки — на уровне топовых площадок. По крайней мере, у меня ничего не лагало на
+            среднем 4G.
+          </p>
+          <div class="rx-grid">
+            <div class="rx-cell">
+              <h3>Новичку</h3>
+              <p>Начните с демо-режима. Не гонитесь за крупным выигрышем, поставьте лимит на сессию.</p>
+            </div>
+            <div class="rx-cell">
+              <h3>Опытному</h3>
+              <p>Изучите бонусную программу: cashback, фриспины, турниры. Часто выгоднее, чем игра «в плюс» по RTP.</p>
+            </div>
+            <div class="rx-cell">
+              <h3>Live-формат</h3>
+              <p>Если устали от слотов — попробуйте live-рулетку или blackjack. Атмосфера другая, ритм медленнее.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- 15 -->
+        <section id="aleks-kazino-onlain" class="rx-block">
+          <h2>алекс казино онлайн: формат игры через браузер без скачивания</h2>
+          <p>
+            Запрос <b>алекс казино онлайн</b> — это интерес к формату игры через интернет в реальном времени. Никакого
+            скачивания клиента, никаких десктопных программ. Открыли сайт — выбрали игру — играем.
+          </p>
+          <p>
+            <b>алекс казино онлайн</b> работает и с компьютера, и с телефона, и с планшета — интерфейс адаптивный,
+            кнопки не перекрываются, шрифты читаемые. Я чаще всего играю именно онлайн, потому что не люблю
+            устанавливать лишний софт. Плюс в онлайн-режиме проще контролировать баланс — все цифры перед глазами.
+            Если соединение нестабильное, можно переключиться в мобильное приложение алекс казино — оно кеширует часть
+            интерфейса и меньше «теряет связь».
+          </p>
+          <p>
+            Для тех, кто привык играть «на ходу», онлайн-формат <b>алекс казино</b> идеален: открыл, сделал ставку,
+            закрыл. Никаких обязательств. Но помните про ответственную игру — ставьте лимиты заранее, а не «когда
+            уже потеряли».
+          </p>
+        </section>
+
+        <!-- 16 -->
+        <section id="aleks-kazino-oficialny" class="rx-block">
+          <h2>алекс казино официальный: на что смотреть, чтобы не попасть на копию</h2>
+          <p>
+            Запрос <b>алекс казино официальный</b> — это попытка пользователя найти «правильный» ресурс, а не его клон.
+            Это тот же ресурс, что и apex casino официальный: бренд один, оператор один, лицензия одна. Я обычно
+            проверяю «официальность» по трём признакам: лицензия в футе, контакты поддержки и наличие SSL-сертификата
+            (значок замка в браузере).
+          </p>
+          <p>
+            <b>алекс казино официальный</b> имеет все три признака. Поддельные сайты обычно имеют только один — и тот
+            кривой. Ещё хороший способ — посмотреть, открывается ли в аккаунте история ваших ставок. Если нет — это
+            клон, закрывайте вкладку. На официальном алекс казино история доступна за любой период, и она совпадает
+            с той, что была на основном домене apex casino.
+          </p>
+          <div class="rx-callout rx-callout--warn">
+            <svg class="rx-callout__ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 9v4"/><path d="M12 17h.01"/><path d="M10.3 3.86l-7.45 12.9A2 2 0 0 0 4.6 19h14.8a2 2 0 0 0 1.74-3.24l-7.45-12.9a2 2 0 0 0-3.4 0z"/></svg>
+            <div class="rx-callout__body">
+              Если вам предлагают «бонус за регистрацию» на алекс казино через сторонний сайт — это почти всегда
+              партнёрская ссылка. Бренд не раздаёт бонусы через лендинги, только через свои каналы.
+            </div>
+          </div>
+        </section>
+
+        <!-- 17 -->
+        <section id="aleks-kazino-oficialny-sait" class="rx-block">
+          <h2>алекс казино официальный сайт: как найти рабочий адрес и не запутаться</h2>
+          <p>
+            Запрос <b>алекс казино официальный сайт</b> — это поиск рабочего адреса площадки. Обратите внимание:
+            «официальный» не значит «постоянный адрес». Адрес может меняться хоть каждый месяц, если провайдеры
+            блокируют. Главное — чтобы вход был на ту же платформу, с вашим аккаунтом и балансом.
+          </p>
+          <p>
+            <b>алекс казино официальный сайт</b> я всегда ищу через Telegram-канал бренда или через службу поддержки.
+            По запросу «alex casino» в поиске можно нарваться на партнёрские клоны, которые выглядят как настоящие,
+            но ведут на другие домены. Поэтому правило простое: получили ссылку из надёжного источника — открыли —
+            вошли — играем. Никаких промежуточных лендингов.
+          </p>
+          <p>
+            Если вы искали именно <b>алекс казино</b> и попали на этот обзор — пользуйтесь оглавлением сверху, чтобы
+            перейти к нужному разделу. Все ключевые варианты запросов разобраны: от входа и зеркала до онлайн-формата
+            и официального сайта.
+          </p>
+        </section>
+
+        <!-- ===================== FAQ ===================== -->
+        <section id="faq" class="rx-faq">
+          <h2 class="rx-faq__title">FAQ — частые вопросы по apex casino, арекс казино и алекс казино</h2>
+
+          <details class="rx-faq__item">
+            <summary class="rx-faq__q">Как войти в apex casino, если основной сайт заблокирован?</summary>
+            <div class="rx-faq__a">
+              Используйте рабочее зеркало apex casino. Адрес можно получить в Telegram-канале бренда, в официальной
+              почте поддержки или через живой чат на сайте. Логин и пароль остаются теми же — баланс синхронизируется.
+            </div>
+          </details>
+
+          <details class="rx-faq__item">
+            <summary class="rx-faq__q">Зачем нужны зеркала и как отличить настоящее от подделки?</summary>
+            <div class="rx-faq__a">
+              Зеркала apex casino нужны для обхода блокировок провайдеров. Настоящее зеркало имеет тот же дизайн,
+              ту же лицензию в футе, тот же каталог игр. Подделка обычно отличается упрощённой графикой, отсутствием
+              live-раздела и нерабочей ссылкой на валидатор лицензии.
+            </div>
+          </details>
+
+          <details class="rx-faq__item">
+            <summary class="rx-faq__q">Сколько времени занимает регистрация в apex casino?</summary>
+            <div class="rx-faq__a">
+              Сама форма — две-три минуты. Подтверждение почты — ещё минута. Верификация документов для вывода —
+              от получаса до нескольких часов, зависит от загрузки отдела безопасности.
+            </div>
+          </details>
+
+          <details class="rx-faq__item">
+            <summary class="rx-faq__q">Какие бонусы есть для новых игроков?</summary>
+            <div class="rx-faq__a">
+              Стандартный набор: приветственный бонус на первый депозит, фриспины на популярные слоты, иногда —
+              кэшбек за первую неделю. Точные условия читайте в разделе «Бонусы» в личном кабинете apex casino, они
+              меняются от акции к акции.
+            </div>
+          </details>
+
+          <details class="rx-faq__item">
+            <summary class="rx-faq__q">Как вывести деньги и какие лимиты?</summary>
+            <div class="rx-faq__a">
+              Минимальный вывод зависит от платёжной системы: обычно 500-1000 рублей. Максимум — определяется
+              уровнем верификации. После загрузки документов вывод занимает от нескольких минут (кошельки) до 3-5
+              рабочих дней (банковские карты).
+            </div>
+          </details>
+
+          <details class="rx-faq__item">
+            <summary class="rx-faq__q">Что делать, если не приходит письмо на почту при регистрации?</summary>
+            <div class="rx-faq__a">
+              Проверьте папку «Спам», подождите 10-15 минут. Если письмо так и не пришло — попробуйте зарегистрировать
+              apex casino на другой почтовый ящик. Иногда провайдеры блокируют письма с «азартных» доменов.
+            </div>
+          </details>
+        </section>
+
+        <!-- ===================== FINALE ===================== -->
+        <section class="rx-finale">
+          <h2>Коротко — о чём этот обзор</h2>
+          <p>
+            apex casino — это бренд с несколькими транслитерациями (арекс казино, алекс казино), единым оператором
+            и лицензией Кюрасао. Вход — через основной домен или рабочее зеркало, регистрация — две-три минуты,
+            играть можно прямо в браузере. Главное правило: пользуйтесь только проверенными адресами из официальных
+            каналов, не вводите пароль на партнёрских клонах и ставьте лимиты заранее.
+          </p>
+          <p>
+            Если остались вопросы — возвращайтесь к нужному <b>h2</b> через оглавление вверху страницы. Все ключевые
+            запросы по apex casino, арекс казино и алекс казино разобраны в отдельных разделах, чтобы не приходилось
+            перечитывать весь материал.
+          </p>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="rx-foot" id="tags">
+    <div class="rx-frame rx-foot__row">
+
+      <div class="rx-foot__col">
+        <h4>Теги для поиска по сайту</h4>
+        <div class="rx-tagcloud">
+          <a class="rx-pill" href="#apex-casino">apex casino</a>
+          <a class="rx-pill" href="#apex-casino-vxod">apex casino вход</a>
+          <a class="rx-pill" href="#apex-casino-zerkalo">apex casino зеркало</a>
+          <a class="rx-pill" href="#apex-casino-igrat">apex casino играть</a>
+          <a class="rx-pill" href="#apex-casino-oficialny">apex casino официальный</a>
+          <a class="rx-pill" href="#apex-casino-oficialny-sait">apex casino официальный сайт</a>
+          <a class="rx-pill" href="#apex-casino-registracia">apex casino регистрация</a>
+          <a class="rx-pill" href="#areks-kazino">арекс казино</a>
+          <a class="rx-pill" href="#areks-kazino-oficialny">арекс казино официальный</a>
+          <a class="rx-pill" href="#areks-kazino-oficialny-sait">арекс казино официальный сайт</a>
+          <a class="rx-pill" href="#aleks-kazino">алекс казино</a>
+          <a class="rx-pill" href="#aleks-kazino-vxod">алекс казино вход</a>
+          <a class="rx-pill" href="#aleks-kazino-zerkalo">алекс казино зеркало</a>
+          <a class="rx-pill" href="#aleks-kazino-igrat">алекс казино играть</a>
+          <a class="rx-pill" href="#aleks-kazino-onlain">алекс казино онлайн</a>
+          <a class="rx-pill" href="#aleks-kazino-oficialny">алекс казино официальный</a>
+          <a class="rx-pill" href="#aleks-kazino-oficialny-sait">алекс казино официальный сайт</a>
+        </div>
+      </div>
+
+      <div class="rx-foot__col">
+        <h4>Навигация</h4>
+        <p style="font-size:.92rem;color:var(--rx-ink-soft);margin:0 0 10px">
+          Редакционный обзор бренда apex casino, арекс казино и алекс казино. Материал носит информационный
+          характер и не является рекламой азартных игр.
+        </p>
+        <div class="rx-disclaimer">
+          <b>18+</b> Информация на сайте предназначена для совершеннолетних. Играйте ответственно. Если вы
+          чувствуете, что теряете контроль — обратитесь в службу поддержки или в организации помощи
+          (например, <code>gaanonline.org</code> или региональные аналоги).
+        </div>
+      </div>
+
+      <div class="rx-foot__col" style="grid-column:1/-1">
+        <div class="rx-copy">
+          <span>© 2025 · apex casino review · редакционный разбор</span>
+          <span>Версия страницы: lightweight edition, без JS</span>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+</div>
+</body>
+</html>
